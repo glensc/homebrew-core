@@ -38,17 +38,17 @@ class Python < Formula
   end
 
   resource "setuptools" do
-    url "https://files.pythonhosted.org/packages/26/e5/9897eee1100b166a61f91b68528cb692e8887300d9cbdaa1a349f6304b79/setuptools-40.5.0.zip"
+    url "https://files.pythonhosted.org/packages/source/s/setuptools/setuptools-40.5.0.zip"
     sha256 "2a2a200f4a760adbded23a091a00be2eca4e28efed65c6120ea275f7e89a1eab"
   end
 
   resource "pip" do
-    url "https://files.pythonhosted.org/packages/45/ae/8a0ad77defb7cc903f09e551d88b443304a9bd6e6f124e75c0fbbf6de8f7/pip-18.1.tar.gz"
+    url "https://files.pythonhosted.org/packages/source/p/pip/pip-18.1.tar.gz"
     sha256 "c0a292bd977ef590379a3f05d7b7f65135487b67470f6281289a94e015650ea1"
   end
 
   resource "wheel" do
-    url "https://files.pythonhosted.org/packages/c2/00/21e3ecc8a9d484f9de995471c061aa3d8f02ae54bdfd9cbdddb59138c809/wheel-0.32.2.tar.gz"
+    url "https://files.pythonhosted.org/packages/source/w/wheel/wheel-0.32.2.tar.gz"
     sha256 "196c9842d79262bb66fcf59faa4bd0deb27da911dbc7c6cdca931080eb1f0783"
   end
 
