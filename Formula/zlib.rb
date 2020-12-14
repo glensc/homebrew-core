@@ -42,7 +42,7 @@ class Zlib < Formula
     system ENV.cc, "zpipe.c", "-I#{include}", "-L#{lib}", "-lz", "-o", "zpipe"
 
     touch "foo.txt"
-    output = "./zpipe < foo.txt > foo.txt.z"
+    output = "./zpipe < foo.txt > foo.tmp.z && mv -f foo.tmp.z foo.txt.z"
     system output
     assert_predicate testpath/"foo.txt.z", :exist?
   end
